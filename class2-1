@@ -1,0 +1,10 @@
+from mcpi.minecraft import Minecraft as mcs
+import time
+mc = mcs.create()
+x,y,z, = mc,player.getTilePos()
+print(mc.player.getTilePos())
+mc.player.setTilPos(200,200,200)
+time.sleep(2)
+mc.player,setTilePos(100,100,100)
+time.sleep(3)
+mc.player,setTilePos(x,y+10,z)
